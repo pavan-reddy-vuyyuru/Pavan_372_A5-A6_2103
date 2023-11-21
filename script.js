@@ -44,12 +44,12 @@ car6.honk();
 
 
 for (let turn = 1; turn <= 7; turn++) {
-    console.log(`-----------------Turn ${turn}----------------------------`);
+    console.log(`-----------------Turn ${turn}-----------------------------------`);
     car1.raceTurn();
     car2.raceTurn();
     car3.raceTurn();
     car4.raceTurn();
     car5.raceTurn();
     car6.raceTurn();
-    console.log('-----------------------------------------------------------');
+    console.log('---------------------------------------------------------------');
 }
